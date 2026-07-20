@@ -282,10 +282,6 @@ img {
     width: 100%;
 }
 
-.btn-whatsapp-header {
-    padding: 0.5rem 1rem;
-    font-size: 0.875rem;
-}
 
 .menu-toggle {
     display: none;
@@ -889,10 +885,6 @@ img {
     
     .nav-link {
         font-size: 1.25rem;
-    }
-
-    .btn-whatsapp-header {
-        display: none;
     }
 
     .menu-toggle {
