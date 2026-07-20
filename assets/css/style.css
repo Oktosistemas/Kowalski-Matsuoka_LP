@@ -848,31 +848,7 @@ img {
     text-align: center;
 }
 
-/* ==========================================================================
-   Botão Flutuante WhatsApp
-   ========================================================================== */
-.whatsapp-float {
-    position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    width: 60px;
-    height: 60px;
-    background-color: #25D366;
-    color: white;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-    z-index: 100;
-    transition: var(--transition);
-}
 
-.whatsapp-float:hover {
-    transform: scale(1.1);
-    background-color: #1ebe57;
-}
 
 /* ==========================================================================
    Media Queries (Responsividade)
@@ -1004,13 +980,7 @@ img {
         justify-content: center;
     }
 
-    .whatsapp-float {
-        width: 50px;
-        height: 50px;
-        font-size: 1.5rem;
-        bottom: 1.5rem;
-        right: 1.5rem;
-    }
+
 }
 
 /* ==========================================================================
