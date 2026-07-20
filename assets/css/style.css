@@ -669,8 +669,9 @@ img {
 
 /* CTA WhatsApp (Contato) */
 .contact-cta-panel {
-    background: linear-gradient(145deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    background-color: var(--color-primary);
+    background-image: linear-gradient(145deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 4rem 3rem;
     border-radius: var(--border-radius);
     display: flex;
@@ -678,7 +679,7 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    box-shadow: var(--shadow-md);
 }
 
 .cta-icon {
